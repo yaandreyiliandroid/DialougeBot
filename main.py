@@ -24,12 +24,12 @@ async def hello(ctx):
 
 @bot.command()
 async def info(ctx):
-    await ctx.send(f'$hay-как дела?
+    await ctx.send(f'''$hay-как дела?
                    $hello-привет
                    $goodbye-пока
                    $wwyd-что ты будешь делать?
                    $isawtrsh-расказывает что делать если увидел мусор
-                   $stpgp-советы при глобальном потеплении')
+                   $stpgp-советы при глобальном потеплении'''')
 
 @bot.command()
 async def hay(ctx):
